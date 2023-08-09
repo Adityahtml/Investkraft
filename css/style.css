@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: normal;
+    font-style: normal;
+    color: #000;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.btn:focus,
+button.btn:focus,
+a:focus,
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.container {
+    max-width: 90%;
+}
+
+
+/* Header Css Start */
+.top-header {
+    background-color: #D7206A;
+    border-bottom: 3px solid #FABF4C;
+    padding-block: 8px;
+}
+
+span.topLink-icon {
+    display: inline-block;
+}
+
+a.top-link {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+ul.topHeader-link li+li {
+    margin-left: 40px;
+}
+
+.bottom-header {
+    padding-block: 20px;
+}
+
+a.navbar-brand {
+    padding-block: 0px;
+    margin-right: 0px;
+}
+
+a.navbar-brand img {
+    height: 60px;
+}
+
+a.custom-btn {
+    border-radius: 5px;
+    background-color: #FABF4C;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+/* Header Css End */
+/* Banner-wrapper css Start */
+.banner-wrapper {
+    background-image: url(../images/banner.png);
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.banner-detail {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.banner-detail h1 {
+    color: #000;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.42px;
+    margin-bottom: 15px;
+}
+
+.banner-detail h1 span {
+    color: #D7206A;
+    font-size: 36px;
+    letter-spacing: -0.36px;
+}
+
+.banner-detail p {
+    color: #000;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 33px;
+    margin-bottom: 32px;
+}
+
+.banner-detail p+p {
+    font-weight: 400;
+}
+
+.banner-detail p:last-child {
+    color: #D7206A;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Banner-wrapper css End */
+
+/* earn-wrapper css start  */
+.earn-wrapper {
+    background-image: url(../images/earn-wrapper.jpg);
+    height: 585px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    position: relative;
+}
+
+.section-heading h2 {
+    color: #141414;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.36px;
+    margin-bottom: 32px;
+}
+
+.section-heading h2 span {
+    color: #D7206A;
+}
+
+.section-heading p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 32px;
+}
+
+.section-heading p span {
+    font-weight: 700;
+}
+
+.section-heading p:last-child {
+    margin-bottom: 0px;
+}
+
+.section-heading {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.earnWrapper-container {
+    position: absolute;
+    top: 59px;
+    left: 0px;
+}
+
+/* earn-wrapper css End  */
+
+/* Benefit-wrapper css start */
+section.benefit-wrapper .section-heading {
+    margin-bottom: 68px;
+}
+
+span.arrowIcon i {
+    color: #D7206A;
+    font-size: 24px;
+    display: inline-flex;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: 2px solid #D7206A;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+span.arrowIcon {
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEFF5;
+    border-radius: 50%;
+    margin-left: 33px;
+}
+
+.rightBenefit span.arrowIcon {
+    margin-left: 0px;
+    margin-right: 33px;
+}
+
+.benefit-wrapperList ul li {
+    color: #000;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.benefit-wrapperList ul li+li {
+    margin-top: 52px;
+}
+
+.benefit-wrapperList ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.rightBenefit.benefit-wrapperList ul {
+    align-items: flex-start;
+}
+
+.benefit-wrapperList {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.benefit-wrapperList ul li:nth-child(2n) {
+    padding-right: 30px;
+}
+
+.rightBenefit.benefit-wrapperList ul li:nth-child(2n) {
+    padding-right: 0px;
+    padding-left: 30px;
+}
+
+section.benefit-wrapper {
+    padding-bottom: 80px;
+}
+
+/* Benefit-wrapper css End */
+/* Partner-wrapper css start */
+section.partner-wrapper {
+    background-color: #FFEFF5;
+    padding-block: 46px;
+}
+
+section.partner-wrapper .section-heading {
+    margin-bottom: 21px;
+}
+
+.partner-box ul {
+    flex-wrap: wrap;
+}
+
+.partner-box ul li {
+    width: 25%;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.partner-box ul li img {
+    height: 60px;
+}
+
+/* Partner-wrapper css End */
+/* Join-wrapper css start */
+section.join-wrapper {
+    padding-block: 66px;
+    background-image: url(../images/joinBanner.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+}
+
+section.join-wrapper .section-heading {
+    margin-bottom: 80px;
+}
+
+.stepBox-container {
+    border-radius: 16px;
+    border: 1px solid #F2F2F2;
+    background: #FFF;
+    box-shadow: 0px 35px 37px -12px rgba(156, 146, 146, 0.13);
+    padding-block: 30px;
+    margin-bottom: 40px;
+}
+
+.join-wrapper .ps-1 {
+    padding-left: 40px !important
+}
+
+.join-wrapper .pe-1 {
+    padding-right: 40px !important
+}
+
+.join-wrapper .custom-row {
+    margin-inline: -40px;
+}
+
+.stepIcon {
+    margin-bottom: 10px;
+}
+
+.stepBox-container h3 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.join-wrapper .col-12 .custom-row .col-12:nth-child(2n+1) .stepBox-container {
+    margin-top: -52px;
+}
+
+/* Join-wrapper css End */
+
+/* faq-wrapper css start */
+.faq-wrapper {
+    padding-block: 60px;
+    background-color: #FFEFF5;
+    background-image: url(../images/faq-banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.faq-wrapper .section-heading {
+    margin-bottom: 24px;
+}
+
+.acordionBox .card {
+    background-color: transparent;
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    border-bottom: 1px solid rgba(18, 17, 39, 0.12) !important;
+}
+
+.acordionBox .card .card-header {
+    background-color: transparent;
+    border: 0px;
+    padding: 0px;
+}
+
+.acordionBox .card+.card {
+    margin-top: 24px;
+}
+
+
+
+.acordionBox a.btn-check:checked+.acordionBox a.btn,
+.acordionBox a.btn.active,
+.acordionBox a.btn.show,
+.acordionBox a.btn:first-child:active,
+.acordionBox a.btn:focus,
+.acordionBox a.btn:active,
+.acordionBox a:not(.btn-check)+.btn:active {
+    border: 0px !important;
+    box-shadow: none !important;
+}
+
+.acordionBox a.btn {
+    padding: 0px;
+    width: 100%;
+    padding-right: 30px;
+    position: relative;
+    text-align: left;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    padding-bottom: 22px;
+}
+
+.acordionBox .card-body {
+    padding-inline: 0px;
+    padding-block: 0px;
+}
+
+.acordionBox .card-body p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.acordionBox a.btn::after {
+    content: "\f077";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #121127;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.acordionBox a.collapsed.btn::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+/* faq-wrapper css End */
+
+/* service-wrapper css Start */
+.service-wrapper {
+    padding-block: 30px;
+}
+
+.serviceWrapper-box {
+    background-image: url(../images/service.png);
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-block: 40px;
+    border-radius: 50px 0px;
+}
+
+.serviceWrapper-box ul {
+    flex-wrap: wrap;
+}
+
+.serviceWrapper-box ul li {
+    display: flex;
+    width: 33.33%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.serviceIcon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 11px;
+}
+
+.serviceContent h3 {
+    color: #FFF;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.serviceContent p {
+    color: #FFF;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+
+/* service-wrapper css End */
+/* footer css start */
+footer {
+    padding-block: 60px;
+}
+
+.footer-content {
+    border-top: 1px solid #DDD;
+    padding-top:50px;
+}
+
+.footer-content p {
+    color: #5B6469;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-inline: 31%;
+    margin-bottom: 0px;
+}

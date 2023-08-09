@@ -1,0 +1,188 @@
+
+@media screen and (max-width:1280px){
+    a.navbar-brand img {
+        height: 50px;
+    }
+    a.custom-btn {
+        font-size: 15px;
+        gap: 6px;
+        padding: 10px 16px;
+    }
+    .top-header {
+        padding-block: 0px;
+    }
+    a.top-link {
+        font-size: 16px;
+        gap: 8px;
+    }
+    .bottom-header {
+        padding-block: 9px;
+    }
+    nav.navbar {
+        padding-block: 0px;
+    }
+    .banner-detail h1 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 15px;
+    }
+    .banner-detail h1 span {
+        font-size: 28px;
+    }
+    .banner-detail p {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+    .section-heading h2 {
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 18px;
+    }
+    .section-heading p {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 25px;
+    }
+    .earnWrapper-container {
+        top: 19px;
+    }
+    .earn-wrapper {
+        height: 540px;
+    }
+    .benefit-wrapperList ul li {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+    span.arrowIcon {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    span.arrowIcon i {
+        font-size: 13px;
+        width: 30px;
+        height: 30px;
+    }
+    .partner-box ul li img {
+        height: 40px;
+    }
+    .join-wrapper .ps-1 {
+        padding-left: 10px !important;
+    }
+    .join-wrapper .pe-1 {
+        padding-right: 10px !important;
+    }
+    .join-wrapper .custom-row {
+        margin-inline: -10px;
+    }
+    .stepBox-container {
+        padding-block: 20px;
+        margin-bottom: 20px;
+    }
+    .serviceContent h3 {
+        font-size: 26px;
+        line-height: 22px;
+        margin-bottom: 17px;
+    }
+    .serviceContent p {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    footer {
+        padding-block: 30px;
+    }
+    .footer-content {
+        padding-top: 30px;
+    }
+    .footer-content p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-inline: 17%;
+    }
+    .faq-wrapper {
+        padding-block: 30px;
+    }
+    .serviceWrapper-box ul li {
+        width: 50%;
+        margin-bottom: 23px;
+    }
+    .serviceWrapper-box ul{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:992px){
+    span.topLink-icon svg {
+        width: 30px;
+        height: 30px;
+    }
+    a.top-link {
+        font-size: 12px;
+        gap: 4px;
+    }
+    .container{
+        max-width:100%;
+    }
+}
+@media screen and (max-width:767px){
+    .earn-wrapper {
+        height: auto;
+    }
+    .earnWrapper-container {
+        position: static;
+    }
+    .benefit-wrapperList ul li+li {
+        margin-top: 20px;
+    }
+    section.benefit-wrapper .section-heading {
+        margin-bottom: 30px;
+    }
+    section.benefit-wrapper {
+        padding-bottom: 30px;
+    }
+    .partner-box ul li img {
+        height: 24px;
+    }
+    section.partner-wrapper {
+        padding-block: 30px;
+    }
+    section.join-wrapper {
+        padding-block: 30px;
+    }
+    .join-wrapper .col-12 .custom-row .col-12:nth-child(2n+1) .stepBox-container {
+        margin-top: 0px;
+    }
+    section.join-wrapper .section-heading {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:676px){
+    a.navbar-brand img {
+        height: 35px;
+    }
+    span.user-detail {
+        display: none;
+    }
+    .footer-content p {
+        padding-inline: 10px;
+    }
+}
+@media screen and (max-width:575px){
+    span.topLink-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .top-headerContainer {
+        padding-block: 8px;
+    }
+}
+@media screen and (max-width:475px){
+    .serviceWrapper-box ul li {
+        width: 100%;
+    }
+}
+@media screen and (max-width:350px){
+
+}
